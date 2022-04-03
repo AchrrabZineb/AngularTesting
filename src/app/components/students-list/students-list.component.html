@@ -1,0 +1,13 @@
+<div class="container">
+  <app-student-card *ngFor="let student of students" [student]="student"></app-student-card>
+</div>
+<div class ="floating-button--container">
+<button class="floating-button"
+        [ngClass]="{'floating-button--active': isMaleFilterActive()}"
+        (click)="toggleMaleFilter()"
+        mat-fab color="primary">♂</button>
+<button class="floating-button"
+        [ngClass]="{'floating-button--active': isFemaleFilterActive()}"
+        (click)="toggleFemaleFilter()"
+        mat-fab color="warn">♀</button>
+</div>

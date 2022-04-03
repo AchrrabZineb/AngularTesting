@@ -1,0 +1,8 @@
+.example-card {
+  width: 400px;
+  height: 194px;
+}
+mat-card-subtitle {
+  font-size: 22px;
+  color: teal;
+}

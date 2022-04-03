@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  background-color: teal;
+  padding: 16px;
+}
+
+.floating-button--container {
+  position: fixed;
+  right: 8px;
+  top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.floating-button {
+  font-size: 24px;
+}
+.floating-button--active {
+  background-color: lightblue;
+  color: black;
+}
